@@ -1,0 +1,100 @@
+body {
+    background-color: #FBB03B ;
+    font-family: monospace serif;
+    
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width:600px;
+    font-family: fantasy;
+    color: antiquewhite;
+    border: 5px solid #000000;
+    padding: 100px;
+}
+
+.letter-container{
+    margin:auto;
+    padding:center;
+    text-align: center;
+    
+
+}
+
+.button {
+    border-width: 
+        background-color: #000000;
+    text-align: center;
+    
+}
+
+.sample-set {
+    
+    
+    
+}
+
+
+.info-section{
+    
+    
+    
+}
+
+
+.photo-title{
+    
+    margin-right: 77px;
+}
+
+
+.sources {
+    
+    
+    
+}
+
+.menu {
+    height: 100px;
+    background-color: azure;
+    /= azure =/
+    
+}
+
+.sidebar{
+    float:left;
+    height: 500px;
+    background-color: beige;
+    
+}
+
+.content{
+
+    /= float allows to move objects next to the last item on an assigned side =/
+    
+    float:left;
+    height:500 px;
+    width: 500 px;
+    
+}
+
+.footer{
+    width: 400px;
+    height: 200px;
+    background-color: navajowhite;
+    
+}
+
+/= useful tools =/
+justify-content: flex-start, flex-end, space-around,
+align-items: baseline, stretch, center, flex-end, justify
+display:flex;
+margin-left/right/bottom/top
+height:
+width:
+background-color: 
+transform:rotate;
+position: absolute, relative;
+top:;
+transform:rotate(270deg);
