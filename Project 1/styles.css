@@ -1,95 +1,218 @@
 body {
-    background-color: #FBB03B ;
-    font-family: monospace serif;
+    background-color: black;
+    font-family: 'Abel';
+    margin:20;
     
 }
+
 
 .container{
     margin-left: auto;
     margin-right: auto;
-    width:600px;
-    font-family: fantasy;
-    color: antiquewhite;
+    width:1390;
+    font-family: 'Abel';
+    color: black;
     border: 5px solid #000000;
-    padding: 100px;
+    padding-top: 0px;
+    background-color: #FBB03B;
+    margin-top: 0px;
+    height: 1800px;
+
 }
+
+.space-container{
+    
+    text-align: center;
+    width: 1000;
+    
+}
+
+/* Letter & Button */
+.big-letter{
+    margin-right: 300px;
+    margin-top: 300px;
+    font-size: 950px;
+    text-align: center;
+    color:white;
+    object-position: center;
+    margin-bottom: -250;
+ 
+    
+}
+
 
 .letter-container{
-    margin:auto;
-    padding:center;
-    text-align: center;
+    display:flex;
+    align-items:baseline;
     
-
-}
-
-.button {
-    border-width: 
-        background-color: #000000;
-    text-align: center;
     
 }
+
+
+#button {
+
+    margin-top: 775px;
+    width: 200px;
+    height: 200px;
+    float: left;
+    font-size: 60px;
+    z-index: 30;
+    text-decoration: underline;
+    position: relative;
+    display: block;
+    background-color: #FBB03B;
+    A:hover {color:white;text-decoration:underline;font-weight:none}
+    
+}
+
+
+/* Sidebar & Sample Set */
 
 .sample-set {
-    
-    
-    
-}
-
-
-.info-section{
-    
-    
-    
-}
-
-
-.photo-title{
-    
-    margin-right: 77px;
-}
-
-
-.sources {
-    
-    
-    
-}
-
-.menu {
-    height: 100px;
-    background-color: azure;
-    /= azure =/
-    
+    display: inline-block;
+    width: 20px;
+    height: 2800px;
+    float: left;
+    font-size: 37px;
+    color: white;
+    text-align: center;
+    margin:25px;
 }
 
 .sidebar{
+    display:flex;
     float:left;
-    height: 500px;
-    background-color: beige;
-    
+    height: 1800px;
+    background-color: #bb832c;
+    margin-right: 40px;
 }
 
-.content{
 
-    /= float allows to move objects next to the last item on an assigned side =/
-    
-    float:left;
-    height:500 px;
-    width: 500 px;
-    
-}
+/*Photo*/
 
-.footer{
-    width: 400px;
+.photo-container{
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 0px;
+    width: 200px;
     height: 200px;
-    background-color: navajowhite;
+    border-radius: 40px;
+    float: right;
+    background-color:#fbc36c;
+}
+
+.photo-title{
+    margin-top: 25px;
+    width: 200px;
+    height: 200px;
+    margin-right: 77px;
+    text-align: center;
+}
+
+/*info & sources */
+
+.info-section{
+    float:left;
+    align-content: left;
+    display:block;
+    width: 500px;
+    font-size: 18px;
+    margin-top: -50px;
+   
+}
+
+.sources {
+    display:block;
+    align-content: bottom;
+    align-content: right;
+    text-align: right;
+    margin-right:50px;
+    font-size: 18px;
+}
+
+.sub-abel{
+    
+    float:left;
+    font-size:30;
+    color:#bb832c;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.typeface-ABEL1{
+    
+    display: flex;
+    float:right;
+    margin-right:50px;
+    font-size:160px;
+    text-align: right;
+    color:white;
+    margin-top:30px;
+    margin-bottom:-60;
+}
+
+.typeface-ABEL2{
+    
+    float:right;
+    margin-right:50px;
+    font-size:160px;
+    text-align: right;
+    color:black;
+    display: flex;
+    margin-bottom: -20
+}
+
+.myinfo{
+    
+    transform:rotate(270deg);
+    text-align: right;
+    margin-top: 115px;
+    float:right;
+    margin-right: -40;
+}
+
+.line-bottom{
+    
+    color:black;
+    width:620px;
+    float:right;
+    margin-right:50px;
+    text-align: right;
+    font-size: 18px;
+    margin-top: 30
+}
+    
+
+
+.analysis {
+    position:absolute;
+    z-index:20;
+    top: ;
+    left: ;
+}
+
+.image{
+    image
+}
+
+.empty-analysis{
+    =hidden
+   
+
+}
+
+.analysis{
+    =visible
     
 }
+
+
+/*
 
 /= useful tools =/
 justify-content: flex-start, flex-end, space-around,
 align-items: baseline, stretch, center, flex-end, justify
-display:flex;
+display:flex / in-line flex;
 margin-left/right/bottom/top
 height:
 width:
@@ -98,3 +221,6 @@ transform:rotate;
 position: absolute, relative;
 top:;
 transform:rotate(270deg);
+ /= float allows to move objects next to the last item on an assigned side =/ 
+
+*/
